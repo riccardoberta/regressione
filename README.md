@@ -1,6 +1,6 @@
-# Regressione con il Machine Learning — Lezione per le scuole superiori
+# Regressione con il Machine Learning
 
-Materiale didattico di una lezione di **4 ore** sul problema della **regressione** affrontato con strumenti di machine learning. Pensata per studenti del **quarto anno** delle superiori con **rudimenti minimi di programmazione Python**.
+Materiale didattico di una lezione introduttiva sul problema della **regressione** affrontato con strumenti di machine learning. Pensata per studenti delle superiori con rudimenti minimi di programmazione Python.
 
 Il filo rosso è una **storia**: gli studenti vestono i panni del reparto dati di una società sportiva e devono capire cosa determina il valore di mercato dei calciatori. Si parte dall'esplorazione dei dati e si arriva alla distinzione tra apprendimento e memorizzazione (overfitting).
 
@@ -8,19 +8,19 @@ Il filo rosso è una **storia**: gli studenti vestono i panni del reparto dati d
 
 | # | Notebook | Durata | Tema | Colab |
 |---|---|---|---|---|
-| 1 | `01_il_mistero_del_valore.ipynb` | ~1h | Esplorazione dati, correlazione | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione-superiori/blob/main/01_il_mistero_del_valore.ipynb) |
-| 2 | `02_primo_scout_automatico.ipynb` | ~1h | Regressione lineare semplice, MSE, residui, metriche di errore | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione-superiori/blob/main/02_primo_scout_automatico.ipynb) |
-| 3 | `03_lo_scout_migliora.ipynb` | ~1h | Regressione lineare multipla, standardizzazione, importanza delle feature | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione-superiori/blob/main/03_lo_scout_migliora.ipynb) |
-| 4 | `04_generalizzazione_overfitting.ipynb` | ~1h | Train/test split, alberi decisionali, overfitting, bias-variance | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione-superiori/blob/main/04_generalizzazione_overfitting.ipynb) |
+| 1 | `01_il_mistero_del_valore.ipynb` | ~1h | Esplorazione dati, correlazione | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione/blob/main/01_il_mistero_del_valore.ipynb) |
+| 2 | `02_primo_scout_automatico.ipynb` | ~1h | Regressione lineare semplice, MSE, residui, metriche di errore | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione/blob/main/02_primo_scout_automatico.ipynb) |
+| 3 | `03_lo_scout_migliora.ipynb` | ~1h | Regressione lineare multipla, standardizzazione, importanza delle feature | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione/blob/main/03_lo_scout_migliora.ipynb) |
+| 4 | `04_generalizzazione_overfitting.ipynb` | ~1h | Train/test split, alberi decisionali, overfitting, bias-variance | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/riccardoberta/regressione/blob/main/04_generalizzazione_overfitting.ipynb) |
 
 ## Obiettivi di apprendimento
 
 Al termine della lezione lo studente sarà in grado di:
 
-- Riconoscere un problema di regressione e formularlo in modo matematico ($X$, $\mathbf{y}$, $f$).
+- Riconoscere un problema di regressione e formularlo in modo matematico.
 - Interpretare grafici a dispersione e coefficienti di correlazione.
 - Allenare e valutare un modello di regressione lineare con `scikit-learn`.
-- Confrontare modelli diversi usando MAE, RMSE e $R^2$.
+- Confrontare modelli diversi usando MAE e RMSE.
 - Capire perché serve un *test set* e cosa sono *underfitting* e *overfitting*.
 
 ## Come usare i notebook in aula
