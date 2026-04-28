@@ -1,12 +1,12 @@
 # Regressione con il Machine Learning
 
-Materiale didattico di una lezione introduttiva al problema della **regressione** affrontato con strumenti di *machine learning*. Pensata per studenti delle scuole superiori con rudimenti minimi di programmazione Python.
+Materiale didattico per una introduzione al **machine learning** tramite un problema di **regressione**. Pensata per studenti delle scuole superiori con rudimenti minimi di programmazione Python.
 
-Il filo conduttore è una **storia**: gli studenti vestono i panni del reparto dati di una società sportiva e devono capire cosa determina il valore di mercato di un calciatore. Partendo dall'esplorazione dei dati arrivano, in quattro tappe da un'ora, a costruire e valutare i propri modelli predittivi e a riconoscere il fenomeno dell'*overfitting*.
+Il filo conduttore è una **storia**: gli studenti vestono i panni del reparto dati di una società sportiva e devono capire cosa determina il valore di mercato di un calciatore. Partendo dall'esplorazione dei dati arrivano, in quattro tappe, a costruire e valutare i propri modelli predittivi e a riconoscere il fenomeno dell'overfitting.
 
 ## Struttura della lezione
 
-Quattro notebook progressivi, **circa un'ora ciascuno** (~4 ore complessive). Ogni notebook è autonomo: scarica il dataset, applica la pulizia e introduce i concetti necessari.
+Quattro notebook progressivi. Ogni notebook è autonomo: scarica il dataset, applica la pulizia e introduce i concetti necessari.
 
 | # | Notebook | Tema | Colab |
 |---|---|---|---|
